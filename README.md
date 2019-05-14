@@ -2,7 +2,7 @@
 Build APIs for an E-commerce app. The user of the app should be able o sign up, login, go to homepage and be greeted with a welcome message, get email notification when they register. User should be able to log out, post images, update their profile, delete an image and any other functionality you can think of.
 
 ### Deployment.
-To open the try this [link](https://express-app-at-code-center.herokuapp.com/) on postman to test the api out. :+1;
+To open the try this [link](https://express-app-at-code-center.herokuapp.com/) on postman to test the api out. :+1:
 
 ### Available Endpoints
 * **"/signup"** : Method **POST**. This is the endpoint for user to register 
