@@ -1,7 +1,7 @@
  var express = require('express')
  var bodyParser = require('body-parser')
  var app = express() 
- var port = 3000 || process.env.PORT
+ var port = process.env.PORT || 3000 
 
  var mongoose = require('mongoose') //this is the same as import mongoose from 'mongoose'
 
@@ -29,6 +29,10 @@ app.use(bodyParser.json())
 
 //We need to provide route for our appication
 //The user will post data to the server when signing up so we need to use a post method
+
+app.get('/', function(req,res){
+	res.send("Welcome to my app")
+})
 
 app.post('/signup', function(req, res){
 	//I'm expecting data from a form from the server so i will use a module called Body	parser
